@@ -1,0 +1,91 @@
+<section id="pabout" class="about-wel-padding">
+    <div class="auto-container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-lg-0 mb-lg-0 mb-5">
+                <img class="img-fluid h-100" src="assets/img/bg/bg1.jpg" alt="" />
+            </div>
+            <!-- end col -->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="welcome-section-title">
+                    <h6 class="theme-color">Welcome To Our School</h6>
+                    <h2>{{siteName}} </h2>
+                    <p class="text-justify">Genius Public School is committed to nurturing young minds through quality
+                        education, strong values, and a balanced approach to learning. With a focus on academic
+                        excellence, creativity, and character-building, we provide a safe and inclusive environment
+                        where students are encouraged to explore their potential. Our experienced faculty, modern
+                        infrastructure, and student-centered curriculum ensure holistic development across academics,
+                        sports, and the arts. We believe in shaping responsible citizens who are confident,
+                        compassionate, and future-ready. At Genius Public School, learning is not just about books—it's
+                        about building a strong foundation for life.</p>
+                </div>
+                <div class="welcome-des wow fadeInUp">
+                    <div class="col-lg-8 col-md-7 col-12 pl-0 mt-4">
+                        <div class="row">
+                            {{#if (showButton currentUrl '/about')}}
+                            <div class="col-lg-6 mb-md-3 mb-3">
+                                <div class="welcome-btn">
+                                    <a href="/about" class="welcome-into-btn">Learn More <i
+                                            class="icofont icofont-caret-right"></i></a>
+                                </div>
+                            </div>
+                            {{/if}}
+                            <div class="col-lg-6">
+                                <a class="welcome-video venobox" data-autoplay="true" data-vbtype="video"
+                                    data-title="Introduction Video" data-gall="videoa"
+                                    href="{{fact.aboutUsVideo}}">
+                                    <div class="welcome-video-icon">
+                                        <i class="icofont-youtube-play"></i>
+                                    </div>
+                                    <div class="welcome-video-des">
+                                        <h5>Watch Video</h5>
+                                        <p>About Us</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end col -->
+        </div>
+    </div>
+</section>
+
+<section id="habout" class="welcome-section-padding">
+    <div class="auto-container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-lg-0 mb-5">
+                <div class="about-wel-des">
+                    <h6 class="theme-color"><i class="icofont-plus"></i>{{siteName}}</h6>
+                    <h2 class="my-4">Invest in Your Student’s Future</h2>
+                    <p class="text-justify">Choosing the right school is one of the most important investments you can
+                        make for your child’s future. At Genius Public School, we provide more than just education—we
+                        shape futures. Our holistic learning approach focuses on academics, life skills, and character
+                        development, ensuring students are prepared for both personal and professional success. With
+                        experienced teachers, modern facilities, and a values-driven environment, we nurture each
+                        child’s unique potential. By enrolling your child with us, you're not just choosing a
+                        school—you're securing a brighter, smarter, and more confident tomorrow for your student.</p>
+                    {{#if (showButton currentUrl '/about')}}
+                    <div class="about-btn wow fadeInUp">
+                        <a href="/about" class="about-us-into-btn-2 mr-2">Read More</a>
+                    </div>
+                    {{/if}}
+                </div>
+            </div>
+            <!-- end col -->
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="about-wel-img-sec img-overlay">
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" data-title="Intro Video"
+                        data-gall="videoh" href="{{fact.aboutUsVideo}}"><i
+                            class="icofont-play-alt-2"></i></a>
+                    <div class="img-wrap">
+                        <img class="img-fluid" src="assets/img/bg/bg3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- end col -->
+        </div>
+    </div>
+    <!--- END CONTAINER -->
+</section>
+<!-- END WELCOME SECTION -->
